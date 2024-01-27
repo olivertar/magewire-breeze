@@ -1,0 +1,19 @@
+{
+  "name": "orangecat/magewire-breeze",
+  "description": "Use Magewire with the Breeze theme",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "OSL-3.0",
+  "require": {
+    "magewirephp/magewire": ">=1.11.0",
+    "swissup/module-breeze": ">=2.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Orangecat\\MagewireBreeze\\": ""
+    }
+  }
+}
